@@ -18,7 +18,7 @@ describe('Medications E2E Test', () => {
     app = moduleRef.createNestApplication();
     await app.init();
 
-    jwtToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwic3ViIjo1LCJpYXQiOjE3MjUyNTkzMjksImV4cCI6MTcyNTI2MjkyOX0.33SE6U8z9EtQwDwYD11Hd-aICVHVvHPN78FRBdefCGg';
+    jwtToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwic3ViIjoxLCJpYXQiOjE3MjUzMDg3MjQsImV4cCI6MTcyNTMxMjMyNH0.Tk8c7xXS6pJjPyC8z4G1S2XmxfQB7XwjMXBayGFB5jg';
   });
 
   it('POST: /medications should create a medication and return it', async () => {

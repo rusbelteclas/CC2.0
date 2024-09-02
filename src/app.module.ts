@@ -17,7 +17,7 @@ import { AuthModule } from './auth/auth.module';
       port: 3306,
       username: 'root',
       password: '',
-      database: 'integradora',
+      database: 'integradora3',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: false,
     }),
